@@ -13,7 +13,7 @@ public class DB_Operations extends SQLiteOpenHelper {
     private static DB_Operations DB_OP = null;
     private static final int DATABASE_VERSION = 1;
 
-    public static final String ACCOUNT_TABLE = "Accounts";
+    public static final String ACCOUNT_TABLE = "accounts";
     public static final String ACCOUNTS_ACCOUNT_NO = "accountNo";
     public static final String ACCOUNTS_BANK_NAME = "bankName";
     public static final String ACCOUNTS_ACCOUNT_HOLDER = "accountHolderName";
